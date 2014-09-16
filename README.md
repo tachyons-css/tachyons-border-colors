@@ -1,10 +1,10 @@
-# PROJECT-TITLE
+# TACHYONS-BORDER-COLORS
 
 Work In Progress. Pull requests and open issues welcome.
 
 ## Install
 ```
-npm install --save-dev 
+npm install --save-dev tachyons-border-colors
 ```
 or download the css on github and include in your project.
 
