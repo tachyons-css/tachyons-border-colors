@@ -1,7 +1,7 @@
 {
   "name": "tachyons-border-colors",
   "version": "1.2.2",
-  "style": "",
+  "style": "border_colors.css",
   "homepage": "http://mrmrs.io/tachyons-border-colors",
   "description": "Performance based sass module.",
   "keywords": [
