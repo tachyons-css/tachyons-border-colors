@@ -13,9 +13,9 @@ gulp.task('css', function() {
     .pipe(size({gzip: true, showFiles: true, title:'prefixed'}))
     .pipe(gulp.dest('./'))
     .pipe(minifyCss())
+    .pipe(rename({ extname: '.min.css' }))
     .pipe(size({gzip: false, showFiles: true, title:'minified'}))
     .pipe(size({gzip: true, showFiles: true, title:'minified'}))
-    .pipe(rename({ extname: '.min.css' }))
     .pipe(gulp.dest('./'));
 });
 
