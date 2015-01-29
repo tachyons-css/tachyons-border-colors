@@ -1,8 +1,15 @@
 # TACHYONS-BORDER-COLORS
 
-http://tachyons.io
+See the full [tachyons](http://tachyons.io) project
 
-Work In Progress. Pull requests and open issues welcome.
+## What is this?
+
+A simple, light-weight css module for setting the color of borders on elements.
+
+### File Sizes
+
+tachyons-border-colors.css 594 B (gzipped)
+tachyons-border-colors.min.css 518 B (gzipped)
 
 ## Install
 ```
@@ -82,6 +89,7 @@ or download the css on github and include in your project.
 .b--darkest-purple { border-color: var(--darkest-purple); }
 
 ```
+
 
 ## Author
 
