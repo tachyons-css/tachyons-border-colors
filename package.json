@@ -2,7 +2,7 @@
   "name": "tachyons-border-colors",
   "version": "2.1.1",
   "style": "tachyons-border-colors.css",
-  "homepage": "http://mrmrs.io/tachyons-border-colors",
+  "homepage": "http://github.com/mrmrs/tachyons-border-colors",
   "description": "Performance based css module.",
   "keywords": [
     "oocss",
