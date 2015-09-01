@@ -42,6 +42,7 @@
     "postcss-import": "^6.2.0"
   },
   "scripts": {
-    "start": "node build.js"
+    "start": "node build.js",
+    "build": "watch 'npm start' ./src"
   }
 }
