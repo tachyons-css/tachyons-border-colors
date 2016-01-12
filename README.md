@@ -1,10 +1,10 @@
-# tachyons-border-colors 2.2.0
+# tachyons-border-colors 3.0.1
 
 Performance based css module.
 
 #### Stats
 
-581 | 58 | 58
+607 | 61 | 61
 ---|---|---
 bytes | selectors | declarations
 
@@ -66,7 +66,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 
    BORDER COLORS
 
- */
+*/
 .b--black { border-color: #000; }
 .b--near-black { border-color: #111; }
 .b--dark-gray { border-color: #333; }
@@ -77,14 +77,16 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .b--light-gray { border-color: #eee; }
 .b--near-white { border-color: #f4f4f4; }
 .b--white { border-color: #fff; }
-.b--white-10 { border-color: hsla( 0, 0, 100%, .1 ); }
-.b--white-25 { border-color: hsla( 0, 0, 100%, .25 ); }
-.b--white-50 { border-color: hsla( 0, 0, 100%, .5 ); }
-.b--white-75 { border-color: hsla( 0, 0, 100%, .75 ); }
-.b--black-10 { border-color: hsla( 0, 0, 0, .1 ); }
-.b--black-25 { border-color: hsla( 0, 0, 0, .25 ); }
-.b--black-50 { border-color: hsla( 0, 0, 0, .5 ); }
-.b--black-75 { border-color: hsla( 0, 0, 0, .75 ); }
+.b--white-05 { border-color: rgba( 0, 0, 100%, .05 ); }
+.b--white-10 { border-color: rgba( 0, 0, 100%, .1 ); }
+.b--white-25 { border-color: rgba( 0, 0, 100%, .25 ); }
+.b--white-50 { border-color: rgba( 0, 0, 100%, .5 ); }
+.b--white-75 { border-color: rgba( 0, 0, 100%, .75 ); }
+.b--black-05 { border-color: rgba( 0, 0, 0, .05 ); }
+.b--black-10 { border-color: rgba( 0, 0, 0, .1 ); }
+.b--black-25 { border-color: rgba( 0, 0, 0, .25 ); }
+.b--black-50 { border-color: rgba( 0, 0, 0, .5 ); }
+.b--black-75 { border-color: rgba( 0, 0, 0, .75 ); }
 .b--blue { border-color: #0074D9; }
 .b--light-blue { border-color: #64a8ff; }
 .b--lightest-blue { border-color: #a2dfff; }
@@ -125,6 +127,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .b--lightest-purple { border-color: #d355ff; }
 .b--dark-purple { border-color: #7b00a9; }
 .b--darkest-purple { border-color: #5f008e; }
+.b--transparent { border-color: transparent; }
 ```
 
 ## Contributing
