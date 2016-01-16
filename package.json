@@ -2,15 +2,15 @@
   "name": "tachyons-border-colors",
   "version": "3.1.0",
   "style": "tachyons-border-colors.css",
-  "homepage": "http://github.com/mrmrs/tachyons-border-colors",
+  "homepage": "http://github.com/tachyons-css/tachyons-border-colors",
   "description": "Performance based css module.",
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/tachyons-border-colors.git"
+    "url": "http://github.com/tachyons-css/tachyons-border-colors.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/tachyons-border-colors/issues",
+    "url": "https://github.com/tachyons-css/tachyons-border-colors/issues",
     "email": "hi@mrmrs.cc"
   },
   "author": {
