@@ -23,6 +23,6 @@
     "start": "tachyons src/tachyons-border-colors.css > css/tachyons-border-colors.css && tachyons src/tachyons-border-colors.css --minify > css/tachyons-border-colors.min.css && tachyons src/tachyons-border-colors.css --generate-docs --package=../../package.json > readme.md"
   },
   "devDependencies": {
-    "tachyons-cli": "^0.3.1"
+    "tachyons-cli": "^0.3.3"
   }
 }
