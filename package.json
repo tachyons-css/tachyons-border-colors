@@ -1,7 +1,7 @@
 {
   "name": "tachyons-border-colors",
   "version": "4.0.0",
-  "style": "tachyons-border-colors.css",
+  "style": "css/tachyons-border-colors.css",
   "homepage": "http://github.com/tachyons-css/tachyons-border-colors",
   "description": "Performance based css module.",
   "keywords": [],
