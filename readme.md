@@ -1,4 +1,4 @@
-# tachyons-border-colors 4.0.3
+# tachyons-border-colors 4.0.4
 
 Performance based css module.
 
