@@ -1,10 +1,10 @@
-# tachyons-border-colors 4.0.4
+# tachyons-border-colors 4.0.5
 
 Performance based css module.
 
 #### Stats
 
-389 | 35 | 35
+605 | 58 | 58
 ---|---|---
 bytes | selectors | declarations
 
@@ -104,6 +104,29 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .b--black-05 { border-color: rgba( 0, 0, 0, .05 ); }
 .b--black-025 { border-color: rgba( 0, 0, 0, .025 ); }
 .b--black-0125 { border-color: rgba( 0, 0, 0, .0125 ); }
+.b--dark-red { border-color: #f00008; }
+.b--red { border-color: #ff3223; }
+.b--orange { border-color: #f3a801; }
+.b--gold { border-color: #f2c800; }
+.b--yellow { border-color: #ffde37; }
+.b--purple { border-color: #7d5da9; }
+.b--light-purple { border-color: #8d4f92; }
+.b--hot-pink { border-color: #d62288; }
+.b--dark-pink { border-color: #c64774; }
+.b--pink { border-color: #f49cc8; }
+.b--dark-green { border-color: #006C71; }
+.b--green { border-color: #41D69F; }
+.b--navy { border-color: #001b44; }
+.b--dark-blue { border-color: #00449e; }
+.b--blue { border-color: #357edd; }
+.b--light-blue { border-color: #96ccff; }
+.b--lightest-blue { border-color: #cdecff; }
+.b--washed-blue { border-color: #f6fffe; }
+.b--washed-green { border-color: #e8fdf5; }
+.b--washed-yellow { border-color: #fff8d5; }
+.b--light-pink { border-color: #efa4b8; }
+.b--light-yellow { border-color: #f3dd70; }
+.b--light-red { border-color: #ffd3c0; }
 .b--transparent { border-color: transparent; }
 ```
 
