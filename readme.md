@@ -1,10 +1,10 @@
-# tachyons-border-colors 4.1.3
+# tachyons-border-colors 4.2.0
 
 Performance based css module.
 
 #### Stats
 
-605 | 58 | 58
+868 | 60 | 60
 ---|---|---
 bytes | selectors | declarations
 
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://npmcdn.com/tachyons-border-colors@4.1.3/css/tachyons-border-colors.min.css" />
+<link rel="stylesheet" href="http://npmcdn.com/tachyons-border-colors@4.2.0/css/tachyons-border-colors.min.css" />
 ```
 
 ##### Locally
@@ -82,10 +82,26 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
    Grayscale
    - Solids
    - Transparencies
+   Colors
+
 */
 /*
 
    BORDER COLORS
+   Docs: http://tachyons.io/docs/themes/borders/
+
+   Border colors can be used to extend the base
+   border classes ba,bt,bb,br,bl found in the _borders.css file.
+
+   The base border class by default will set the color of the border
+   to that of the current text color. These classes are for the cases
+   where you desire for the text and border colors to be different.
+
+   Base:
+     b = border
+
+   Modifiers:
+   --color-name = each color variable name is also a border color name
 
 */
 .b--black { border-color: #000; }
@@ -122,18 +138,22 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .b--black-05 { border-color: rgba( 0, 0, 0, .05 ); }
 .b--black-025 { border-color: rgba( 0, 0, 0, .025 ); }
 .b--black-0125 { border-color: rgba( 0, 0, 0, .0125 ); }
-.b--dark-red { border-color: #f00008; }
-.b--red { border-color: #ff3223; }
-.b--orange { border-color: #f3a801; }
-.b--gold { border-color: #f2c800; }
-.b--yellow { border-color: #ffde37; }
-.b--purple { border-color: #7d5da9; }
-.b--light-purple { border-color: #8d4f92; }
-.b--hot-pink { border-color: #d62288; }
-.b--dark-pink { border-color: #c64774; }
-.b--pink { border-color: #f49cc8; }
-.b--dark-green { border-color: #006C71; }
-.b--green { border-color: #41D69F; }
+.b--dark-red { border-color: #e7040f; }
+.b--red { border-color: #ff4136; }
+.b--light-red { border-color: #ff725c; }
+.b--orange { border-color: #ff6300; }
+.b--gold { border-color: #ffb700; }
+.b--yellow { border-color: #ffd700; }
+.b--light-yellow { border-color: #fbf1a9; }
+.b--purple { border-color: #5e2ca5; }
+.b--light-purple { border-color: #a463f2; }
+.b--dark-pink { border-color: #d5008f; }
+.b--hot-pink { border-color: #ff41b4; }
+.b--pink { border-color: #ff80cc; }
+.b--light-pink { border-color: #ffa3d7; }
+.b--dark-green { border-color: #137752; }
+.b--green { border-color: #19a974; }
+.b--light-green { border-color: #9eebcf; }
 .b--navy { border-color: #001b44; }
 .b--dark-blue { border-color: #00449e; }
 .b--blue { border-color: #357edd; }
@@ -141,10 +161,8 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .b--lightest-blue { border-color: #cdecff; }
 .b--washed-blue { border-color: #f6fffe; }
 .b--washed-green { border-color: #e8fdf5; }
-.b--washed-yellow { border-color: #fff8d5; }
-.b--light-pink { border-color: #efa4b8; }
-.b--light-yellow { border-color: #f3dd70; }
-.b--light-red { border-color: #ffd3c0; }
+.b--washed-yellow { border-color: #fffceb; }
+.b--washed-red { border-color: #ffdfdf; }
 .b--transparent { border-color: transparent; }
 ```
 
